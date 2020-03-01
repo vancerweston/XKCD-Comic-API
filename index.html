@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='style.css' rel='stylesheet'>
+        <title>XKCD Comic API</title>
+    </head>
+    <body>
+        <section id='header'>
+            <h1>This is my own interpretation of XKCD comics</h1>
+            <h3>Below is the current XKCD comic that can be found at <a href='xkcd.com'>xkcd.com</a></h3>
+            <h4>There is also an input box where you can enter a number and get any current comic from xkcd.com. Just enter the desired comic's number. Have fun!</h4>
+        </section>
+        <section id='comic'>
+        </section>
+        <section id='input'>
+                <input id='comicInput' type='number' placeholder='Example: 1245'/>
+                <button type='button' onclick='callXkcdCustomComic();'>Submit</button>   
+        </section>
+        <footer>
+            <p>This website is copyright of Vance Weston. The comics are copyright of XKCD Comics and their copyright should be reviewed before the comics are copied or reused.</p>
+        </footer>
+        <script src='main.js'></script>
+    </body>
+</html>
